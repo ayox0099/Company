@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    margin-left:65%;
+}
+body{
+    min-height: 2000px;
+}
+.hero::before{
+    content:'';
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/wp1.jpg);
+    z-index: -1;
+}
+.hero{
+    min-height: 100vh;
+}
